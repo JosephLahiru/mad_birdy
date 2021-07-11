@@ -328,6 +328,7 @@ GameObject:
   - component: {fileID: 1670979869}
   - component: {fileID: 1670979872}
   - component: {fileID: 1670979873}
+  - component: {fileID: 1670979874}
   m_Layer: 0
   m_Name: GreenBirdy
   m_TagString: Untagged
@@ -613,3 +614,15 @@ PolygonCollider2D:
       - {x: -0.55, y: -2.78}
       - {x: -0.42999998, y: -2.53}
       - {x: -0.29, y: -2.56}
+--- !u!114 &1670979874
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1670979868}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: df9d165a0ef79ef42b20389e4f6cdb72, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 

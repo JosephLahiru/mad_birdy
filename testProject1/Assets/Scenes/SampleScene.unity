@@ -342,7 +342,7 @@ Camera:
   far clip plane: 1000
   field of view: 60
   orthographic: 1
-  orthographic size: 6.540162
+  orthographic size: 6.2806644
   m_Depth: -1
   m_CullingMask:
     serializedVersion: 2
@@ -365,7 +365,7 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 519420028}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalRotation: {x: 4.3856564e-23, y: 0.000000047683717, z: -2.0912438e-30, w: 1}
   m_LocalPosition: {x: 1.4124999, y: -3.9078498, z: -10.000001}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
@@ -705,7 +705,7 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 661526639}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalRotation: {x: 4.3856564e-23, y: 0.000000047683717, z: -2.0912438e-30, w: 1}
   m_LocalPosition: {x: 1.4124999, y: -3.9078498, z: -10.000001}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
@@ -988,6 +988,7 @@ GameObject:
   - component: {fileID: 1171341988}
   - component: {fileID: 1171341987}
   - component: {fileID: 1171341986}
+  - component: {fileID: 1171341991}
   m_Layer: 0
   m_Name: Monster (1)
   m_TagString: Untagged
@@ -1242,6 +1243,18 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 5
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1171341991
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1171341985}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ec2ca7b671ba17747be33778319d8f22, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &1254428062
 GameObject:
   m_ObjectHideFlags: 0
@@ -1255,6 +1268,7 @@ GameObject:
   - component: {fileID: 1254428063}
   - component: {fileID: 1254428067}
   - component: {fileID: 1254428066}
+  - component: {fileID: 1254428068}
   m_Layer: 0
   m_Name: Monster
   m_TagString: Untagged
@@ -1509,6 +1523,18 @@ Rigidbody2D:
   m_SleepingMode: 1
   m_CollisionDetection: 0
   m_Constraints: 0
+--- !u!114 &1254428068
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1254428062}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ec2ca7b671ba17747be33778319d8f22, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &1641658836
 GameObject:
   m_ObjectHideFlags: 0
@@ -1635,7 +1661,7 @@ GameObject:
   - component: {fileID: 1670979875}
   m_Layer: 0
   m_Name: GreenBirdy
-  m_TagString: Untagged
+  m_TagString: Birdy_
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
